@@ -18,16 +18,16 @@ a {
     text-decoration: none;
 }
 
-.bg-primary {
+.my-bg-primary {
     background-color: var(--bs-primary);
 }
-.text-primary {
+.my-text-primary {
     color: var(--bs-primary);
 }
-.bg-secondary {
+.my-bg-secondary {
     background-color: var(--bs-secondary);
 }
-.bg-secondary-light {
+.my-bg-secondary-light {
     background-color: var(--bs-secondary-light);
 }
 .img-w-20 {
