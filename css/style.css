@@ -3,6 +3,8 @@
     --bs-primary-rgb: 25, 188, 156;
     --bs-secondary: #2C3E4F;
     --bs-secondary-rgb: 44, 62, 79;
+    --bs-primary-dark: #149e82;
+    --bs-primary-dark-rgb: 20, 158, 130;
 }
 
 .bg-primary {
@@ -16,4 +18,34 @@
 }
 .card-border-1 {
     border-radius: 1rem;
+}
+.form-control {
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-radius: 0;
+}
+.form-control:focus {
+    box-shadow: 0 0 0 0.25rem rgb( var(--bs-primary-rgb) , 25%);
+    border:0;
+}
+.my-btn-primary {
+    background-color: var(--bs-primary);
+    color: white;
+}
+.my-btn-primary:hover {
+    background-color: var(--bs-primary-dark);
+    color: white;
+}
+.my-btn-primary:active {
+    background-color: var(--bs-primary-dark);
+    box-shadow: 0 0 0 0.25rem rgb( var(--bs-primary-rgb) , 25%);
+}
+.my-btn-primary:active:focus {
+    background-color: var(--bs-primary-dark);
+    box-shadow: 0 0 0 0.25rem rgb( var(--bs-primary-rgb) , 25%);
+}
+.my-btn-primary:focus {
+    background-color: var(--bs-primary-dark);
+    box-shadow: 0 0 0 0.25rem rgb( var(--bs-primary-rgb) , 25%);
 }
